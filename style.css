@@ -1,0 +1,179 @@
+header {
+    display: flex;
+    justify-content: space-between; /* supaya logo di kiri, navbar di kanan */
+    align-items: center;            /* biar item sejajar secara vertikal */
+    width: 100%;
+    height: 58.76px;                   /* agak lebih tinggi biar muat */
+    background-color:#ffff;
+    /* padding: 0 20px;                 jarak ke dalam */
+   padding: 11.14px, 100.23px, 11.14px, 100.23px,;
+    gap: 43.8px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 30px;
+    width: 107.54px;
+    height: 16.71px;
+    gap: 5.57px;
+}
+
+.navbar {
+    display: flex;
+    gap: 22.27px;        /* jarak antar menu */
+    width: 650.40px;
+    height: 36.49px;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    width: 307.82px;
+    height: 17px;
+    gap: 16.71;
+    
+}
+
+.navbar button {
+    width: 133.25px;
+    height: 36.49px;
+    padding: 9.74px,22.27px,9.74px,22.27px;
+    /* font-size: 18px; */
+    background-color: #4caf4f;
+    border-radius: 2.78px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;   /* cegah teks terpotong jadi 2 baris */
+    color: #ffff;
+  }
+  
+
+  .container{
+    background-color: aliceblue;
+    width: 1,002.34px;
+    height: 416.95px;
+    padding: 66.82px,100.23px,66.82px,100.23px,;
+    gap: 72.39fx;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .content{
+    width: 457.32px;
+    height: 192.9px;
+    gap: 22.27px;
+    background-color: aliceblue;
+   
+  }
+
+
+ .text1{
+font: weight 600px;
+color: #4d4d4d;
+font-style: 600px;
+font-size: 44.55px;
+line-height: 52.9px; 
+letter-spacing: 0%;
+}
+
+.text2{
+  font: weight 600px;
+  color: #4caf4f;
+  font-style: 600px;
+  font-size: 44.55px;
+  line-height: 52.9px; 
+  letter-spacing: 0%;
+  }
+
+  .text3{
+    font: weight 400px;
+    color: #4d4d4d;
+    font-style: 400px;
+    font-size: 11.14px;
+    line-height:16.71px; 
+    letter-spacing: 0%;
+    padding-bottom: 10px;
+    }
+  .content button{
+
+    width: 89.55px;
+    height: 36.49px;
+    padding: 9.74px,22.27px,9.74px,22.27px;
+    background-color: #4caf4f;
+    border-radius: 2.78px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+  }
+
+  .gambar{
+    width: 272.16px;
+    height: 283.3px;
+   
+  }
+
+  .logo-clients{
+    width: 1,002.34px;
+    height: 132.23px;
+    gap: 11.14px;
+    padding-right: 100.23px;
+    padding-left: 10.23px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo1{
+    width: 772.64px;
+    height: 53.57px;
+    gap: 5.57px;    
+  }
+
+  .our{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 772.64px;
+    height:31px;
+    font-size: 25.06px;
+    letter-spacing: 0%;
+    line-height: 30.63px;
+    font-weight: 600;
+   
+  }
+
+
+  .we{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 772.64px;
+    height:17px;
+    font-size: 11.14px;
+    letter-spacing: 0%;
+    line-height: 16.71px;
+    font-weight: 400;
+    
+  }
+
+
+  .logo2{
+    width: 801.87x;
+    height: 68.21px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .logo2 img{
+    width: 33.41px;
+    height: 33.41px;
+    border-radius: 5.54px;
+    margin-top: 30px;
+  }
