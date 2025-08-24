@@ -317,3 +317,12 @@ letter-spacing: 0%;
    display: flex;
    justify-content: center;
  }
+
+ .body{
+  width: 480.77px;
+  height: 475.36px;
+  background-color: azure;
+  margin-top: 471.09px;
+  margin-left: 0.33px;
+  gap: 16.03px;
+ }
