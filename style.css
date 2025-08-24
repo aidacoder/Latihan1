@@ -319,10 +319,59 @@ letter-spacing: 0%;
  }
 
  .body{
+  width: 1,002px;
+  height: 757.36px;
+  display: flex;
+  justify-content: center;
+  
+ }
+
+  .body1{
   width: 480.77px;
-  height: 475.36px;
-  background-color: azure;
-  margin-top: 471.09px;
-  margin-left: 0.33px;
-  gap: 16.03px;
+  height: 757.36px;
+  background-color: #9dbe9e;
+  /* display: flex; */
+  /* flex-direction: column; */
+ } 
+ .unlock{
+  width: 480.77px;
+  height:144.56px ;
+  display: flex;
+  background-color: aqua;
+ 
+ }
+
+ .unlock img{
+  width: 147.47px;
+  height: 144px;
+ }
+
+ .the{
+  width: 220.69px;
+  height: 91px;
+ }
+
+ .unlock h3{
+  width: 200.36px;
+  height: 30px;
+  font-size: 12.03px;
+  line-height: 14.69px;
+  letter-spacing: 0%;
+  
+ }
+ .unlock p{
+  width: 200.36px;
+  height: 27px;
+  font-size: 4.67px;
+  line-height: 6.68px;
+  letter-spacing: 0%;
+ 
+ }
+
+ .Achievements{
+    width: 480.77px;
+    height: 100.9px;
+    background-color: #1ed724;
+   
+   
  }
