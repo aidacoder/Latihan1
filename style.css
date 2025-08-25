@@ -497,46 +497,49 @@ margin-bottom: 20px;
 
 .Community-Updates{
   width: 100%;
-  height: 330.59px;
-  background-color: rgb(19, 119, 207);
+  height: 300.59px;
   display: flex;
   align-items: center;
   flex-direction: column;
   
 }
 .Community-Updates-text1 {
-  width: 370px;
+  width: 500px;
   height: 15px;
   font-weight: 600;
-  font-size: 22.02px;
+  font-size: 29.02px;
   line-height: 14.69px;
   letter-spacing: 0%;
-  background-color: #4CAF4F;
-  margin-left: 90px;
+  
+  text-align: center;
+ 
 }
 .Community-Updates-text2 {
-  width: 470px;
+  width: 600px;
   height: 42px;
   font-weight: 600;
-  font-size: 12.02px;
+  font-size: 16.02px;
   line-height: 14.69px;
   letter-spacing: 0%;
-  background-color: #4CAF4F;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 90px;
 }
 
 .Community-Updates-picture{
- width: 70%;
+ width: 100%;
  display: flex;
  justify-content:center;
  background-color: #4CAF4F;
  margin-left: 30px;
+ display: flex;
+ justify-content:center;
+ margin-top: 30px;
  
 }
-.Community-Updates-picture{
-
+.Community-Updates-picture img{
+  width:500px;
+  height: 200px;
 }
 
 
