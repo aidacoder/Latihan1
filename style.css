@@ -5,9 +5,7 @@ body{
   flex-direction: column;
   margin: 0;
   padding: 0;
-
 }
-
 .header{
   display: flex;
   justify-content: space-between;
@@ -16,8 +14,6 @@ body{
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
-
-  
 }
 
 .header-navbar a{
@@ -28,15 +24,38 @@ body{
  size: 11.14px;
  line-height: 16.71px;
  letter-spacing: 0%;
- 
 }
+
 .header-navbar button{
  background-color: #4CAF4F;
+
  border-radius: 2.78px;
  border: none;
  width: 133.25px;
  height: 36.49px;
  color: #ffff;
+ }
+ button:hover {
+  background-color:green;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+ @media (max-width: 768px) {
+  .header {
+     flex-direction: column;      
+     align-items: flex-start;     
+   }
+   .header-navbar {
+     display: flex;
+     width: 100%;
+     margin-top: 10px;
+     justify-content:center;
+     margin-left:10px
+   }
+   
  }
 
  .container{
@@ -47,11 +66,10 @@ body{
   justify-content: space-around;
   align-items: center;
  }
-
  .container-section{
-  height: 457.32px;
   height: 192px;
  }
+
  .container-section-text1{
   font-weight: 600;
   font-size: 44.55px;
@@ -59,6 +77,7 @@ body{
   letter-spacing: 0%;
   color: #4D4D4D;
  }
+
  .container-section-text2{
   font-weight: 600;
   font-size: 44.55px;
@@ -66,20 +85,68 @@ body{
   letter-spacing: 0%;
   color:#4CAF4F;
  }
+
 .container-section-button{
   width: 89.55px;
   height: 36.49px;
- border-radius: 2.78px;
- border: none;
+  border-radius: 2.78px;
+  border: none;
   background-color: #4CAF4F;
   color: #F5F7FA;
   padding: 9.74px,22.27px,9.74px,22.27px;
   margin-top: 30px;
 }
+
 .container-img{
   width: 272.16px;
   height: 283.3px;
 }
+
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction:column;
+    width:100%;
+    height:300px;
+  }
+
+  .container-section{
+    height: 100px;
+   }
+  .container-section-text1{
+    font-weight:300;
+    font-size: 34.55px;
+    line-height: 40.9px;
+    letter-spacing: 0%;
+    color: #4D4D4D;
+   }
+
+   .container-section-text2{
+    font-weight: 300;
+    font-size: 34.55px;
+    line-height: 40.9px;
+    letter-spacing: 0%;
+    color:#4CAF4F;
+   }
+
+   .container-section-button{
+    margin-top: 5px;
+  }
+  
+   .container-img{
+    width: 50%;
+    height: 60%;
+    margin-top:20px;
+  }
+
+  .container-img img{
+    width: 50%;
+    height: 70%;
+    margin-top:20px;
+  }
+}
+
 
 .client{
   width: 100%;
@@ -87,11 +154,14 @@ body{
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top:12px;
  
 }
+
 .client-text{
   width: 772.64px;
   height: 53.57px;
+  margin-top: 20px;
 }
 
 .client-text-1{
@@ -115,14 +185,45 @@ body{
 .client-icon{
   display: flex;
   justify-content: space-between;
-  width: 801.87px;
+  width: 100%;
   height: 68px;
+  margin-top:12px;
 }
 .client-icon img{
   width: 33.41px;
   height: 33.41px;
   border-radius: 5.57px;
 }
+
+
+
+
+@media (max-width: 768px) {
+  .client {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top:12px; 
+  }
+
+.client-icon {
+  display: flex;
+  justify-content: space-evenly;
+  width: 85%;
+  height: 38px;
+  margin-top:12px;
+}
+
+.client-icon img{
+  width: 30.41px;
+  height: 30.41px;
+  border-radius: 5.57px;
+   }
+}
+
+
 
 
 .community{
@@ -132,13 +233,14 @@ body{
   display: flex;
   text-align: center;
   justify-content: center;
-  margin: 10px;
   flex-direction: column;
+  
 }
+
+
 .community-text{
   width: 100%;
-  height: 84.57px;
-  
+  height: 80.57px;
   display: flex;
   justify-content: center;
   
@@ -150,8 +252,8 @@ height: 62px;
 font-weight: 600;
 font-size: 39.06px;
 line-height: 30.63px;
-padding-top: 10px;
-letter-spacing: 0%;
+padding-top: 6px;
+letter-spacing: 2%;
 
 }
 
@@ -163,8 +265,8 @@ font-size: 13.14px;
 line-height: 16.71px;
 letter-spacing: 0%;
 margin-top: 10px;
-margin-left: 60px;
-margin-bottom: 20px;
+margin-left: 100px;
+
 
 }
 
@@ -172,7 +274,6 @@ margin-bottom: 20px;
 .community-frame{
   width: 100%;
   height: 196.1px;
-  /* background-color: #1066e8; */
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -217,7 +318,6 @@ margin-bottom: 20px;
   text-align: center;
  
 }
-
 .community-frame-MO-text2{
   width: 89.8;
   height: 21px;
@@ -227,75 +327,107 @@ margin-bottom: 20px;
   letter-spacing: 0%;
   color: #4D4D4D;
   margin-top: 25px;
-  
- 
 }
-.Calender{
+
+
+.Unlock{
   width: 100%;
   height: 250.79px;
-  /* background-color: #4CAF4F; */
   display: flex;
   justify-content: space-evenly;
  
 }
-.Calender-picture img{
+
+
+.Unlock-picture img{
   width: 270px;
   height: auto;
   margin-left: 40px;
  
 }
 
-.Calender-text1{
+.Unlock-text1{
   width: 470px;
   height: 30px;
   font-weight: 600;
-  font-size: 17.02px;
-  line-height: 14.69px;
+  font-size: 22.02px;
+  line-height: 20.69px;
   margin-top: 20px;
   margin-right: 100px;
+  margin-bottom: 20px;
 
 }
 
-.Calender-text2{
+.Unlock-text2{
   width: 470px;
   height: 60px;
   font-weight:400;
-  font-size: 9.67px;
+  font-size: 11.67px;
   line-height: 14.69px;
-  background-color: #FFFFFF;
+  margin-top:16px
 }
 
-.Calender button{
+.Unlock-text button{
   background-color: #4CAF4F;
   color: #FFFFFF;
   border-radius: 5px;
   width: 100px;
   height: 30px;
   border: none;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 
+@media (max-width: 768px) {
+  .Unlock {
+    flex-direction:column;
+    background-color:red;
+    width:100%;
+    height:400px;
+    justify-content:center:
+  }
+
+  .Unlock-picture img{
+    width: 170px;
+    height: auto;
+  }
+  .Unlock-text1{
+    width: 470px;
+    height: 30px;
+    font-weight: 600;
+    font-size: 18.02px;
+    line-height: 20.69px;
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  .Unlock-text2{
+    width: 470px;
+    height: 60px;
+    font-weight:400;
+    font-size: 10.67px;
+    line-height: 14.69px;
+    margin-top:16px
+  }
+}
 
 
 .Achievements{
   width: 100%;
   height: 250.09px;
   display: flex;
- justify-content: space-around;
+  justify-content: space-around;
   background-color: #F5F7FA; 
   align-items: center;
 }
 
+
 .Achievements-text{
   width: 410.9px;
   height: 140.0px;
-  /* background-color: #F5F7FA;  */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin-left: 40px;
-  
 }
 
 .Achievements-text1{
@@ -304,12 +436,9 @@ margin-bottom: 20px;
   font-size: 35.02px;
   line-height: 14.69px;
   letter-spacing: 0%;
-  /* background-color: #4CAF4F; */
   margin-top: 10px;
- 
-  
-
 }
+
 .Achievements-text2{
   width: 400px;
   height: 50px;
@@ -317,7 +446,6 @@ margin-bottom: 20px;
   line-height: 13.69px;
   letter-spacing: 0%;
   color: #4CAF4F;
-  /* background-color: #1367e5; */
 }
 .Achievements-text3{
   width: 400px;
@@ -328,8 +456,6 @@ margin-bottom: 20px;
   color: #4D4D4D;
 
 }
-
-
 .Achievements-count-countaner{
   width: 300.9px;
   height: 90.0px;
@@ -342,7 +468,6 @@ margin-bottom: 20px;
   display: flex;
 }
 .Achievements-count-member{
-  /* background-color: rgb(193, 207, 202); */
   width:150.9px;
   height: 45px;
   display: flex; 
@@ -350,20 +475,16 @@ margin-bottom: 20px;
 .Achievements-count-member-logo{
   width: 20px;
   height: 50px;
-
 }
 .Achievements-count-member-text1{
  font-size: medium;
  color:green;
 }
-
-
 .Achievements-count-club{
   width:150.9px;
   height: 45px;
   display: flex; 
 } 
-
 .Achievements-count1{
   width: 300.9px;
   height: 40.0px;
@@ -371,7 +492,6 @@ margin-bottom: 20px;
   margin-top: 19px;
 }
 .Achievements-count-event{
- 
   width:150.9px;
   height: 45px;
   display: flex; 
@@ -382,56 +502,88 @@ margin-bottom: 20px;
   display: flex;
 }
 
+@media (max-width: 768px) {
+  .Achievements{
+    flex-direction:column;
+    
+  }
+  .Achievements-text1{
+    font-size: 28.02px;
+    width:250.9px;
+    height: 20px;
+    line-height:0px
+  }
+  .Achievements-text2{
+    font-size: 28.02px;
+    width:300.9px;
+    height: 20px;
+  }
+}
 
 
-
-
-
-.Unlock{
+.Calender{
   width: 100%;
   height: 250.79px;
-  /* background-color: #4CAF4F; */
   display: flex;
   justify-content: space-evenly;
- 
 }
-.Unlock-picture img{
+
+.Calender-picture img{
   width: 270px;
   height: auto;
   margin-left: 40px;
  
 }
 
-.Unlock-text1{
+.Calender-text1{
   width: 470px;
   height: 30px;
-  font-weight: 600;
-  font-size: 17.02px;
+  font-size: 23.02px;
   line-height: 14.69px;
   margin-top: 20px;
   margin-right: 100px;
 
 }
 
-.Unlock-text2{
+.Calender-text2{
   width: 470px;
   height: 60px;
   font-weight:400;
-  font-size: 9.67px;
+  font-size: 12.67px;
   line-height: 14.69px;
   background-color: #FFFFFF;
 }
 
-.Unlock-text button{
+.Calender button{
   background-color: #4CAF4F;
   color: #FFFFFF;
   border-radius: 5px;
   width: 100px;
   height: 30px;
   border: none;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
+
+@media (max-width: 768px) {
+  .Calender{
+    flex-direction:column;
+    width:100%;
+    height:400px;
+    justify-content:center: 
+  }
+  .Calender-picture{
+    width: 110px;
+    height: auto;
+    margin-left: 40px;
+  }
+  .Calender-picture img{
+    width: 110px;
+    height: auto;
+    margin-left: 40px;
+  }
+
+}
 
 .Customer{
   width: 100%;
@@ -440,8 +592,39 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  
+} 
+
+
+
+@media (max-width: 768px) {
+  .Customer{
+  width: 100%;
+  height: 500px;
+  flex-direction:column;
+  }
+  .Customer-picture {
+    width: 100%;
+    height: auto;
+    justify-content:center;
+  }
+  .Customer-picture img{
+    max-width: 100%;
+    height: auto;
+  }
+
+.Customer-text{
+  width:100%;
 }
+  .Customer-text1{
+    width: 590px;
+    height: 100px;
+    max-width: 100%;         
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}
+
+
 .Customer-picture img{
   width: 230px;
   height: 220px;
@@ -453,11 +636,9 @@ margin-bottom: 20px;
   width: 590px;
   height: 100px;
   font-weight: 400;
-  font-size: 11.10px;
+  font-size: 13.10px;
   line-height: 14.69px;
-  /* background-color: #4CAF4F; */
- 
- 
+  margin-top: 20px;
 }
 
 .Customer-text2{
@@ -466,20 +647,16 @@ margin-bottom: 20px;
   font-weight: 600;
   font-size: 17.02px;
   line-height: 14.69px;
-  /* background-color: #FFFFFF; */
-  margin-top: 15px;
+  margin-top: 22px;
   color: #4CAF4F;
- 
 }
 
 .Customer-text3{
   width: 470px;
-  height: 30px;
+  height: 20px;
   font-weight: 600;
   font-size: 9.02px;
   line-height: 14.69px;
-  /* background-color: #FFFFFF; */
-  margin-top: 9px;
   color: #89939E;
  
 }
@@ -501,8 +678,9 @@ margin-bottom: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  
 }
+
+
 .Community-Updates-text1 {
   width: 500px;
   height: 15px;
@@ -531,10 +709,9 @@ margin-bottom: 20px;
 .Community-Updates-picture{
  width: 100%;
  display: flex;
- /* background-color: #4CAF4F; */
  margin-left: 30px;
  display: flex;
- justify-content: center;
+ justify-content:space-evenly;
  margin-top: 30px;
  
 }
@@ -555,10 +732,9 @@ margin-bottom: 20px;
   width: 219px;
   height: 70px;
   background-color:#F5F7FA;
-  font-size: 16px;  /* jangan terlalu kecil biar kebaca */
+  font-size: 16px; 
   position: absolute;
   bottom: 0px;
-   /* geser sedikit ke kanan */
   margin-left: 38px;
   border-radius: 4px;
   text-align: center;
@@ -567,6 +743,26 @@ margin-bottom: 20px;
   display: flex;
   
 }
+
+.fotter{
+  width: auto;
+  height: 30px;
+  background-color: #f2f7f3;
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
